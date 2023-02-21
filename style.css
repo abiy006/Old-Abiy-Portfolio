@@ -24,15 +24,14 @@ html {
 
 body {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-/*     
-    background-image: url("Template-1-Mobile-Main.png");
-    background-repeat: no-repeat;
-    */
+  }
+
+  body img {
+    height: 100%;
     width: 80%;
-    height: 80%;
     min-width: 768px;
-    background-color: brown;
+    background-size: cover;
+    margin: auto;
   }
