@@ -50,7 +50,7 @@ header ul {
 
 section {
   display: flex;
-  background-image: url('/Images/my_background.svg');
+  background-image: url('./Images/my_background.svg');
   background-repeat: no-repeat;
   width: 375px;
   height: 100%;
