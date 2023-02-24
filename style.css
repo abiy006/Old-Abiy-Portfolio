@@ -291,24 +291,6 @@ section.work-container div:nth-child(5) ul li a {
   text-decoration: none;
 }
 
-section.work-container div:nth-child(5) ul li button {
-  display: flex;
-  width: fit-content;
-  height: 24px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background: #ebebff;
-  justify-content: center;
-  border: 1px solid #ebebff;
-  border-radius: 8px;
-  align-items: center;
-  font-family: 'Poppins', sans-serif, Courier, monospace;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-}
-
 main button {
   display: flex;
   background-color: #fff;
@@ -328,6 +310,78 @@ main button {
   margin-bottom: 20px;
   align-items: center;
   justify-content: center;
+}
+
+section.work-container div:nth-child(5) ul li button {
+  display: flex;
+  width: fit-content;
+  height: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #ebebff;
+  justify-content: center;
+  border: 1px solid #ebebff;
+  border-radius: 8px;
+  align-items: center;
+  font-family: 'Poppins', sans-serif, Courier, monospace;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+section.work-container2 div:nth-child(5) ul li button {
+  display: flex;
+  width: fit-content;
+  height: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #ebebff;
+  justify-content: center;
+  border: 1px solid #ebebff;
+  border-radius: 8px;
+  align-items: center;
+  font-family: 'Poppins', sans-serif, Courier, monospace;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+section.work-container3 div:nth-child(5) ul li button {
+  display: flex;
+  width: fit-content;
+  height: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #ebebff;
+  justify-content: center;
+  border: 1px solid #ebebff;
+  border-radius: 8px;
+  align-items: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+section.work-container4 div:nth-child(5) ul li button {
+  display: flex;
+  width: fit-content;
+  height: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #ebebff;
+  justify-content: center;
+  border: 1px solid #ebebff;
+  border-radius: 8px;
+  align-items: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 main button:hover {
@@ -442,24 +496,6 @@ section.work-container2 div:nth-child(5) ul li a {
   text-decoration: none;
 }
 
-section.work-container2 div:nth-child(5) ul li button {
-  display: flex;
-  width: fit-content;
-  height: 24px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background: #ebebff;
-  justify-content: center;
-  border: 1px solid #ebebff;
-  border-radius: 8px;
-  align-items: center;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-}
-
 section.work-container2 div:nth-child(5) ul li button:hover {
   background-color: #6070ff;
   color: #fff;
@@ -553,24 +589,6 @@ section.work-container3 div:nth-child(5) ul li {
 section.work-container3 div:nth-child(5) ul li a {
   display: flex;
   text-decoration: none;
-}
-
-section.work-container3 div:nth-child(5) ul li button {
-  display: flex;
-  width: fit-content;
-  height: 24px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background: #ebebff;
-  justify-content: center;
-  border: 1px solid #ebebff;
-  border-radius: 8px;
-  align-items: center;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
 }
 
 section.work-container3 div:nth-child(5) ul li button:hover {
@@ -667,24 +685,6 @@ section.work-container4 div:nth-child(5) ul li {
 section.work-container4 div:nth-child(5) ul li a {
   display: flex;
   text-decoration: none;
-}
-
-section.work-container4 div:nth-child(5) ul li button {
-  display: flex;
-  width: fit-content;
-  height: 24px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background: #ebebff;
-  justify-content: center;
-  border: 1px solid #ebebff;
-  border-radius: 8px;
-  align-items: center;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
 }
 
 section.work-container4 div:nth-child(5) ul li button:hover {
