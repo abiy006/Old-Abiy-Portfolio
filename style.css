@@ -45,6 +45,87 @@ header ul {
   padding: 20px;
 }
 
+.AboutMyself {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 1263px;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.AboutMyself h1 {
+  display: flex;
+  font-size: 40px;
+  font-weight: bold;
+  align-items: center;
+  font-family: 'Poppins', system-ui, Courier, monospace;
+  width: 250px;
+  height: 101px;
+  color: #172b4d;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.AboutMyself p {
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif, Courier, monospace;
+  max-width: 327px;
+  max-height: 180px;
+  color: #344563;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.letconnect_text {
+  display: flex;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif, Courier, monospace;
+  min-width: 117px;
+  max-height: 24px;
+  color: #7f8cff;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.letconnect_icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 170px;
+  margin-top: 20px;
+}
+
+.letconnect_icons ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 170px;
+  list-style: none;
+}
+
+.AboutMyself div:nth-child(5) {
+  display: flex;
+  background-image: url('./Images/getmy_resume.svg');
+  background-repeat: no-repeat;
+  width: 162px;
+  height: 48px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.AboutMyself div:nth-child(6) ul li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: 10px;
+}
+
 section {
   display: flex;
   background-image: url('./Images/my_background.svg');
@@ -423,7 +504,7 @@ main {
   align-items: center;
 }
 
-main .work-container4 div:nth-child(5) ul {
+.work-container4 div:nth-child(5) ul {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -445,85 +526,4 @@ main .work-container4 div:nth-child(5) ul {
   height: 48px;
   margin-top: 10px;
   margin-bottom: 20px;
-}
-
-.AboutMyself {
-  display: flex;
-  flex-direction: column;
-  width: 375px;
-  height: 1263px;
-  text-align: center;
-  color: white;
-  margin-top: 20px;
-  padding-left: 20px;
-}
-
-.AboutMyself h1 {
-  display: flex;
-  font-size: 40px;
-  font-weight: bold;
-  align-items: center;
-  font-family: 'Poppins', system-ui, Courier, monospace;
-  width: 250px;
-  height: 101px;
-  color: #172b4d;
-  text-align: left;
-  margin-top: 10px;
-}
-
-.AboutMyself p {
-  display: flex;
-  font-size: 16px;
-  font-style: normal;
-  font-family: 'Poppins', sans-serif, Courier, monospace;
-  max-width: 327px;
-  max-height: 180px;
-  color: #344563;
-  text-align: left;
-  margin-top: 20px;
-}
-
-.letconnect_text {
-  display: flex;
-  font-size: 16px;
-  font-family: 'Poppins', sans-serif, Courier, monospace;
-  min-width: 117px;
-  max-height: 24px;
-  color: #7f8cff;
-  text-align: left;
-  margin-top: 10px;
-}
-
-.letconnect_icons {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  min-width: 170px;
-  margin-top: 20px;
-}
-
-.letconnect_icons ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  min-width: 170px;
-  list-style: none;
-}
-
-.AboutMyself div:nth-child(5) {
-  display: flex;
-  background-image: url('./Images/getmy_resume.svg');
-  background-repeat: no-repeat;
-  width: 162px;
-  height: 48px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.AboutMyself div:nth-child(6) ul li {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  margin-top: 10px;
 }
