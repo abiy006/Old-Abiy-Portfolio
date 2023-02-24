@@ -423,7 +423,7 @@ main {
   align-items: center;
 }
 
-.work-container4 div:nth-child(5) ul {
+main .work-container4 div:nth-child(5) ul {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -494,7 +494,7 @@ main {
   margin-top: 10px;
 }
 
-.AboutMyself .letconnect_icons {
+.letconnect_icons {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -502,7 +502,7 @@ main {
   margin-top: 20px;
 }
 
-.AboutMyself .letconnect_icons ul {
+.letconnect_icons ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
