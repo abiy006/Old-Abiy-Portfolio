@@ -140,7 +140,7 @@ section.ams p {
 }
 
 .letconnect_icons ul li:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 section.ams div:nth-child(5) {
@@ -151,6 +151,10 @@ section.ams div:nth-child(5) {
   height: 48px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.centered4 ul li:hover {
+  transform: scale(1.1);
 }
 
 section.ams div:nth-child(6) ul li {
@@ -195,10 +199,6 @@ section.landing {
   list-style: none;
   padding-top: 15px;
   margin-top: 20px;
-}
-
-.centered4 ul li:hover {
-  transform: scale(1.1); 
 }
 
 main {
@@ -277,7 +277,6 @@ section.work-container div:nth-child(5) ul {
   list-style: none;
   align-items: center;
   margin-top: 10px;
-
 }
 
 section.work-container div:nth-child(5) ul li {
@@ -303,28 +302,11 @@ section.work-container div:nth-child(5) ul li button {
   border: 1px solid #ebebff;
   border-radius: 8px;
   align-items: center;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif, Courier, monospace;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-}
-
-section.work-container div:nth-child(5) ul li button:hover {
-  background-color: #6070FF;
-  color: #fff;
-}
-
-section.work-container div:nth-child(5) ul li button:active {
-  background-color: blue;
-  color: #fff;
-}
-
-section.work-container div:nth-child(5) ul li button:disabled {
-  color: #aaa;
-  background-color: #fff;
-  border: 1px solid #aaa;
-  border-radius: 8px;
 }
 
 main button {
@@ -336,7 +318,7 @@ main button {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   width: fit-content;
   height: 48px;
@@ -349,7 +331,7 @@ main button {
 }
 
 main button:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: #fff;
 }
 
@@ -359,6 +341,23 @@ main button:active {
 }
 
 main button:disabled {
+  color: #aaa;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+}
+
+section.work-container div:nth-child(5) ul li button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+section.work-container div:nth-child(5) ul li button:active {
+  background-color: blue;
+  color: #fff;
+}
+
+section.work-container div:nth-child(5) ul li button:disabled {
   color: #aaa;
   background-color: #fff;
   border: 1px solid #aaa;
@@ -462,7 +461,7 @@ section.work-container2 div:nth-child(5) ul li button {
 }
 
 section.work-container2 div:nth-child(5) ul li button:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: #fff;
 }
 
@@ -575,7 +574,7 @@ section.work-container3 div:nth-child(5) ul li button {
 }
 
 section.work-container3 div:nth-child(5) ul li button:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: #fff;
 }
 
@@ -689,7 +688,7 @@ section.work-container4 div:nth-child(5) ul li button {
 }
 
 section.work-container4 div:nth-child(5) ul li button:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: #fff;
 }
 
