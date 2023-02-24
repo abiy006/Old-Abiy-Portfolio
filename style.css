@@ -126,7 +126,7 @@ main {
   margin-top: 100px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .work-container div:nth-child(1) {
@@ -200,14 +200,12 @@ main {
   margin-bottom: 20px;
 }
 
-/*the end of work 1 */
-
 .work-container2 {
   display: grid;
   width: 327px;
   height: 596px;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 100px;
@@ -284,7 +282,6 @@ main {
   margin-bottom: 20px;
 }
 
-/*the end of work 2 */
 .work-container3 {
   display: grid;
   width: 327px;
@@ -293,7 +290,7 @@ main {
   margin-top: 100px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .work-container3 div:nth-child(1) {
@@ -367,14 +364,12 @@ main {
   margin-bottom: 20px;
 }
 
-/*the end of work 3*/
-
 .work-container4 {
   display: grid;
   width: 327px;
   height: 596px;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 100px;
@@ -452,8 +447,6 @@ main {
   margin-bottom: 20px;
 }
 
-/*the end of work 4*/
-
 .AboutMyself {
   display: flex;
   flex-direction: column;
@@ -501,7 +494,7 @@ main {
   margin-top: 10px;
 }
 
-.letconnect_icons {
+.AboutMyself .letconnect_icons {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -509,7 +502,7 @@ main {
   margin-top: 20px;
 }
 
-.letconnect_icons ul {
+.AboutMyself .letconnect_icons ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
