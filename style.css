@@ -45,6 +45,32 @@ header ul {
   padding: 20px;
 }
 
+section h1 {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Poppins', system-ui, Courier, monospace;
+  max-width: 300px;
+  min-height: 150px;
+  color: #172b4d;
+  text-align: left;
+}
+
+section p {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  font-size: 16px;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif, Courier, monospace;
+  max-width: 327px;
+  max-height: 180px;
+  color: #344563;
+  text-align: left;
+}
+
 .AboutMyself {
   display: flex;
   flex-direction: column;
@@ -135,32 +161,6 @@ section {
   position: relative;
   text-align: center;
   color: white;
-}
-
-section h1 {
-  position: absolute;
-  top: 15%;
-  left: 5%;
-  font-size: 40px;
-  font-weight: bold;
-  font-family: 'Poppins', system-ui, Courier, monospace;
-  max-width: 300px;
-  min-height: 150px;
-  color: #172b4d;
-  text-align: left;
-}
-
-section p {
-  position: absolute;
-  top: 45%;
-  left: 5%;
-  font-size: 16px;
-  font-style: normal;
-  font-family: 'Poppins', sans-serif, Courier, monospace;
-  max-width: 327px;
-  max-height: 180px;
-  color: #344563;
-  text-align: left;
 }
 
 .centered3 {
