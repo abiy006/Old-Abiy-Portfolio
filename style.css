@@ -312,6 +312,23 @@ main button {
   justify-content: center;
 }
 
+main button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+main button:active {
+  background-color: blue;
+  color: #fff;
+}
+
+main button:disabled {
+  color: #aaa;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+}
+
 section.work-container div:nth-child(5) ul li button {
   display: flex;
   width: fit-content;
@@ -359,7 +376,7 @@ section.work-container3 div:nth-child(5) ul li button {
   border: 1px solid #ebebff;
   border-radius: 8px;
   align-items: center;
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, Courier, monospace;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -377,28 +394,11 @@ section.work-container4 div:nth-child(5) ul li button {
   border: 1px solid #ebebff;
   border-radius: 8px;
   align-items: center;
-  font-family: 'Poppins';
+  font-family: 'Poppins', system-ui, Courier, monospace;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-}
-
-main button:hover {
-  background-color: #6070ff;
-  color: #fff;
-}
-
-main button:active {
-  background-color: blue;
-  color: #fff;
-}
-
-main button:disabled {
-  color: #aaa;
-  background-color: #fff;
-  border: 1px solid #aaa;
-  border-radius: 8px;
 }
 
 section.work-container div:nth-child(5) ul li button:hover {
