@@ -287,7 +287,8 @@ section.work-container div:nth-child(5) ul {
 } */
 
 section.work-container div:nth-child(5) ul li {
-
+  float: left;
+  margin-right: 5px;
 }
 
 section.work-container div:nth-child(5) ul li a {
