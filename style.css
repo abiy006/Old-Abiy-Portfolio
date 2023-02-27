@@ -279,15 +279,11 @@ section.work-container div:nth-child(5) ul {
   margin-top: 10px;
 }
 
-/* section.work-container div:nth-child(5) ul li {
+section.work-container div:nth-child(5) ul li {
   display: flex;
   margin-right: 10px;
   align-items: center;
   text-decoration: none;
-} */
-
-section.work-container div:nth-child(5) ul li {
-
 }
 
 section.work-container div:nth-child(5) ul li a {
