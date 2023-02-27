@@ -271,12 +271,16 @@ section.work-container div:nth-child(5) {
   align-items: center;
 }
 
-section.work-container div:nth-child(5) ul {
+/* section.work-container div:nth-child(5) ul {
   display: flex;
   flex-direction: row;
   list-style: none;
   align-items: center;
   margin-top: 10px;
+} */
+
+section.work-container div:nth-child(5) ul {
+  float: left;
 }
 
 section.work-container div:nth-child(5) ul li {
