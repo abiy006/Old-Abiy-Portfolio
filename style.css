@@ -325,23 +325,6 @@ section.contact_me button {
   line-height: 24px;
 }
 
-section.contact_me button:hover {
-  background-color: #6070ff;
-  color: #fff;
-}
-
-section.contact_me button:active {
-  background-color: blue;
-  color: #fff;
-}
-
-section.contact_me button:disabled {
-  color: #aaa;
-  background-color: #fff;
-  border: 1px solid #aaa;
-  border-radius: 8px;
-}
-
 main button:hover {
   background-color: #6070ff;
   color: #fff;
@@ -353,6 +336,23 @@ main button:active {
 }
 
 main button:disabled {
+  color: #aaa;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+}
+
+section.contact_me button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+section.contact_me button:active {
+  background-color: blue;
+  color: #fff;
+}
+
+section.contact_me button:disabled {
   color: #aaa;
   background-color: #fff;
   border: 1px solid #aaa;
