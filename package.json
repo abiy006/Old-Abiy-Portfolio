@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/abiy006/Abiy-Portfolio#readme",
   "devDependencies": {
-    "hint": "^2.0.0"
+    "hint": "^2.0.0",
+    "stylelint-config-recommended-scss": "^9.0.1",
+    "stylelint-config-standard-scss": "^7.0.1"
   },
   "dependencies": {
     "chrome-launcher": "^0.15.1"
