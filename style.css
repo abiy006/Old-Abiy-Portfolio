@@ -290,20 +290,6 @@ section.work-container div:nth-child(5) ul li a {
   text-decoration: none;
 }
 
-section.contact_me button {
-  width: 142px;
-  height: 48px;
-  color: #6070ff;
-  background: #fff;
-  border-radius: 8px;
-  border: 1px solid #fff;
-  font-family: 'Poppins', sans-serif, Courier, monospace;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-}
-
 main button {
   display: flex;
   background-color: #fff;
@@ -325,6 +311,20 @@ main button {
   justify-content: center;
 }
 
+section.contact_me button {
+  width: 142px;
+  height: 48px;
+  color: #6070ff;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  font-family: 'Poppins', sans-serif, Courier, monospace;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
 main button:hover {
   background-color: #6070ff;
   color: #fff;
@@ -336,6 +336,23 @@ main button:active {
 }
 
 main button:disabled {
+  color: #aaa;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+}
+
+section.contact_me button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+section.contact_me button:active {
+  background-color: blue;
+  color: #fff;
+}
+
+section.contact_me button:disabled {
   color: #aaa;
   background-color: #fff;
   border: 1px solid #aaa;
@@ -831,21 +848,4 @@ section.contact_me form {
   height: 400px;
   position: absolute;
   top: 5270px;
-}
-
-section.contact_me button:hover {
-  background-color: #6070ff;
-  color: #fff;
-}
-
-section.contact_me button:active {
-  background-color: blue;
-  color: #fff;
-}
-
-section.contact_me button:disabled {
-  color: #aaa;
-  background-color: #fff;
-  border: 1px solid #aaa;
-  border-radius: 8px;
 }
