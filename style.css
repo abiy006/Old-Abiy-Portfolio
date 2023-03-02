@@ -343,12 +343,12 @@ main button:disabled {
 }
 
 section.contact_me button:hover {
-  background-color: greenyellow;
+  background-color: #6070ff;
   color: #fff;
 }
 
 section.contact_me button:active {
-  background-color: red;
+  background-color: blue;
   color: #fff;
 }
 
