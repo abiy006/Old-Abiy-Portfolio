@@ -186,10 +186,9 @@ section.desktop_ams .about_part1 h1 {
   font-size: 40px;
   line-height: 52px;
   font-family: 'Poppins', system-ui, Courier, monospace;
-  width: 247px;
   height: 114px;
-  margin-left: 142px;
-  margin-right: 142px;
+  margin-left: 80px;
+  margin-right: 80px;
   color: #091e42;
   text-align: left;
   margin-top: 10px;
@@ -274,8 +273,8 @@ section.desktop_ams .about_part1 p {
   font-family: 'Poppins', system-ui, Courier, monospace;
   width: 447px;
   height: 114px;
-  margin-left: 142px;
-  margin-right: 142px;
+  margin-left: 80px;
+  margin-right: 80px;
   color: #344563;
   text-align: left;
   margin-top: 10px;
@@ -375,8 +374,8 @@ section.desktop_ams .about_part1 button {
   padding-right: 10px;
   margin-top: 10px;
   margin-bottom: 20px;
-  margin-left: 142px;
-  margin-right: 142px;
+  margin-left: 80px;
+  margin-right: 80px;
   align-items: center;
   justify-content: center;
 }
@@ -836,12 +835,13 @@ section.desktop_ams {
   top: 0;
   margin-top: 3500px;
   margin-bottom: 10px;
+  width: 100%;
   border: 1px solid #dfe1e6;
   background-color: #fff;
   padding-left: 10px;
   padding-right: 10px;
   height: 550px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr 1fr);
   grid-template-rows: 587px;
   border-top-right-radius: 150px;
 }
@@ -852,8 +852,8 @@ section.desktop_ams .about_part1 .letconnect_text {
   font-family: 'Poppins', sans-serif, Courier, monospace;
   min-width: 117px;
   max-height: 24px;
-  margin-left: 142px;
-  margin-right: 142px;
+  margin-left: 80px;
+  margin-right: 80px;
   color: #7f8cff;
   text-align: left;
   margin-top: 10px;
@@ -863,8 +863,8 @@ section.desktop_ams .about_part1 .letconnect_icons {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 142px;
-  margin-right: 142px;
+  margin-left: 80px;
+  margin-right: 80px;
   min-width: 170px;
   margin-top: 20px;
 }

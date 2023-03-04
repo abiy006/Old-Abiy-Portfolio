@@ -22,6 +22,10 @@
   section.contact_me_desktop {
     display: none;
   }
+
+  section.desktop_ams {
+    display: none;
+  }
 }
 
 html {
