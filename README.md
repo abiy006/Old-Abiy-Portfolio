@@ -37,7 +37,8 @@
 
 # 📖 [ABIY-PORTFOLIO] <a name="about-project"></a>
 
-**[Abiy-Portfolio]** is a...
+**[Abiy-Portfolio]** This is a portofolio created during my Microverse course. 
+The protofolio is able to function (responsive to) both on the mobile and desktop version.
 
 ## 🛠 Built With <a name="built-with"></a>
 
