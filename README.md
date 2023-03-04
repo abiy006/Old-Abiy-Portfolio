@@ -64,6 +64,20 @@
   </ul>
 </details>
 
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Abiy Hussen**
+
+- GitHub: [@githubhandle](https://github.com/abiy006)
+- Twitter: [@twitterhandle](https://twitter.com/Abiy62463489)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abiy-hussen-aman-194587183/)
+
+👤 **Mark Yegon**
+
+- GitHub: [@githubhandle](https://github.com/MarkYegon7)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Features -->
