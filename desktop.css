@@ -101,8 +101,8 @@ section.contact_me_desktop h1 {
   color: #fff;
   width: 801px;
   height: 56px;
-  margin-top: 120px;
-  margin-left: 200px;
+  margin-top: 180px;
+  margin-left: 250px;
   font-family: 'Poppins', sans-serif, Courier, monospace;
   font-style: normal;
   font-weight: 700;
@@ -255,8 +255,8 @@ section.contact_me_desktop p {
   color: #fff;
   width: 569px;
   height: 102px;
-  margin-top: 200px;
-  margin-left: 400px;
+  margin-top: 240px;
+  margin-left: 450px;
   font-family: 'Poppins', sans-serif, Courier, monospace;
   font-style: normal;
   font-weight: 400;
@@ -318,7 +318,7 @@ main.desktop_main section.work-container11 .my-buttons ul {
 section.desktop_ams .about_part2 ul li ul li {
   display: flex;
   list-style: none;
-  width: 100px;
+  width: 140px;
   height: 120px;
 }
 
@@ -351,8 +351,7 @@ section.contact_me_desktop form button {
   padding-right: 10px;
   margin-top: 10px;
   margin-bottom: 20px;
-  margin-left: 142px;
-  margin-right: 142px;
+  margin-left: 170px;
   align-items: center;
   justify-content: center;
 }
@@ -881,12 +880,14 @@ section.contact_me_desktop {
   width: 100%;
   top: 0;
   margin-top: 4000px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   border: 1px solid #dfe1e6;
   background-color: #6070ff;
   padding-left: 10px;
   padding-right: 10px;
-  height: 760px;
+  padding-top: 50px;
+  margin-bottom: 100px;
+  height: 800px;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: 587px;
   border-top-left-radius: 150px;
@@ -912,9 +913,9 @@ section.contact_me_desktop form {
   flex-direction: column;
   justify-content: center;
   width: 447px;
-  height: 500px;
-  margin-top: 310px;
-  margin-left: 400px;
+  height: 395px;
+  margin-top: 350px;
+  margin-left: 450px;
 }
 
 section.contact_me_desktop form input {
