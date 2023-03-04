@@ -93,6 +93,23 @@ section.landing_desktop #dsktop_bgimg {
   border-bottom-left-radius: 80px;
 }
 
+section.contact_me_desktop h1 {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  width: 801px;
+  height: 56px;
+  margin-top: 120px;
+  margin-left: 50px;
+  font-family: 'Poppins', sans-serif, Courier, monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
 section.landing_desktop h1:nth-child(2) {
   font-size: 3rem;
   line-height: 3.75rem;
@@ -162,6 +179,22 @@ main.desktop_main {
   margin-top: 50px;
 }
 
+section.desktop_ams .about_part1 h1 {
+  display: flex;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  font-family: 'Poppins', system-ui, Courier, monospace;
+  width: 247px;
+  height: 114px;
+  margin-left: 142px;
+  margin-right: 142px;
+  color: #091e42;
+  text-align: left;
+  margin-top: 10px;
+}
+
 main.desktop_main section.work-container11 {
   display: grid;
   position: absolute;
@@ -215,6 +248,39 @@ main.desktop_main section.work-container11 .my-canopy {
   margin-top: 20px;
 }
 
+section.contact_me_desktop p {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  width: 569px;
+  height: 102px;
+  margin-top: 200px;
+  margin-left: 250px;
+  font-family: 'Poppins', sans-serif, Courier, monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+section.desktop_ams .about_part1 p {
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Poppins', system-ui, Courier, monospace;
+  width: 447px;
+  height: 114px;
+  margin-left: 142px;
+  margin-right: 142px;
+  color: #344563;
+  text-align: left;
+  margin-top: 10px;
+}
+
 main.desktop_main section.work-container11 .desk_main_cont p {
   display: flex;
   align-items: center;
@@ -233,12 +299,28 @@ main.desktop_main section.work-container11 .my-buttons {
   align-items: center;
 }
 
+section.desktop_ams .about_part2 ul {
+  list-style: none;
+}
+
+section.desktop_ams .about_part2 ul li ul {
+  display: flex;
+  list-style: none;
+}
+
 main.desktop_main section.work-container11 .my-buttons ul {
   display: flex;
   flex-direction: row;
   list-style: none;
   align-items: center;
   margin-top: 10px;
+}
+
+section.desktop_ams .about_part2 ul li ul li {
+  display: flex;
+  list-style: none;
+  width: 100px;
+  height: 120px;
 }
 
 main.desktop_main section.work-container11 .my-buttons ul li {
@@ -251,6 +333,86 @@ main.desktop_main section.work-container11 .my-buttons ul li {
 main.desktop_main section.work-container11 .my-buttons ul li a {
   display: flex;
   text-decoration: none;
+}
+
+section.contact_me_desktop form button {
+  display: flex;
+  background-color: #fff;
+  color: #396df2;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif, Courier, monospace;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  width: fit-content;
+  height: 48px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 142px;
+  margin-right: 142px;
+  align-items: center;
+  justify-content: center;
+}
+
+section.desktop_ams .about_part1 button {
+  display: flex;
+  background-color: #fff;
+  color: #396df2;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif, Courier, monospace;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  width: fit-content;
+  height: 48px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 142px;
+  margin-right: 142px;
+  align-items: center;
+  justify-content: center;
+}
+
+section.contact_me_desktop form button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+section.contact_me_desktop form button:active {
+  background-color: blue;
+  color: #fff;
+}
+
+section.contact_me_desktop form button:disabled {
+  color: #aaa;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+}
+
+section.desktop_ams .about_part1 button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+section.desktop_ams .about_part1 button:active {
+  background-color: blue;
+  color: #fff;
+}
+
+section.desktop_ams .about_part1 button:disabled {
+  color: #aaa;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 8px;
 }
 
 main.desktop_main section.work-container11 .my-buttons button {
@@ -684,38 +846,6 @@ section.desktop_ams {
   border-top-right-radius: 150px;
 }
 
-section.desktop_ams .about_part1 h1 {
-  display: flex;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  font-family: 'Poppins', system-ui, Courier, monospace;
-  width: 247px;
-  height: 114px;
-  margin-left: 142px;
-  margin-right: 142px;
-  color: #091e42;
-  text-align: left;
-  margin-top: 10px;
-}
-
-section.desktop_ams .about_part1 p {
-  display: flex;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  font-family: 'Poppins', system-ui, Courier, monospace;
-  width: 447px;
-  height: 114px;
-  margin-left: 142px;
-  margin-right: 142px;
-  color: #344563;
-  text-align: left;
-  margin-top: 10px;
-}
-
 section.desktop_ams .about_part1 .letconnect_text {
   display: flex;
   font-size: 16px;
@@ -743,62 +873,6 @@ section.desktop_ams .about_part1 .letconnect_icons ul li:hover {
   transform: scale(1.1);
 }
 
-section.desktop_ams .about_part2 ul {
-  list-style: none;
-}
-
-section.desktop_ams .about_part2 ul li ul {
-  display: flex;
-  list-style: none;
-}
-
-section.desktop_ams .about_part2 ul li ul li {
-  display: flex;
-  list-style: none;
-  width: 100px;
-  height: 120px;
-}
-
-section.desktop_ams .about_part1 button {
-  display: flex;
-  background-color: #fff;
-  color: #396df2;
-  font-size: 17px;
-  font-family: 'Poppins', sans-serif, Courier, monospace;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  width: fit-content;
-  height: 48px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 142px;
-  margin-right: 142px;
-  align-items: center;
-  justify-content: center;
-}
-
-section.desktop_ams .about_part1 button:hover {
-  background-color: #6070ff;
-  color: #fff;
-}
-
-section.desktop_ams .about_part1 button:active {
-  background-color: blue;
-  color: #fff;
-}
-
-section.desktop_ams .about_part1 button:disabled {
-  color: #aaa;
-  background-color: #fff;
-  border: 1px solid #aaa;
-  border-radius: 8px;
-}
-
 section.contact_me_desktop {
   display: grid;
   position: absolute;
@@ -818,7 +892,6 @@ section.contact_me_desktop {
   border-top-left-radius: 150px;
 }
 
-
 section.contact_me_desktop #desktop_contact_img {
   background-image: url("./Images/contact_desktop.svg");
   background-repeat: no-repeat;
@@ -828,42 +901,8 @@ section.contact_me_desktop #desktop_contact_img {
 }
 
 section.contact_me_desktop #desktop_contact_content {
-display: flex;
-flex-direction: column;
-}
-
-section.contact_me_desktop h1 {
-  position: absolute;
-  top: 0;
   display: flex;
-  justify-content: center;
-  color: #fff;
-  width: 801px;
-  height: 56px;
-  margin-top: 120px;
-  margin-left: 50px;
-  font-family: 'Poppins', sans-serif, Courier, monospace;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-}
-
-section.contact_me_desktop p {
-  position: absolute;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  color: #fff;
-  width: 569px;
-  height: 102px;
-  margin-top: 200px;
-  margin-left: 250px;
-  font-family: 'Poppins', sans-serif, Courier, monospace;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  flex-direction: column;
 }
 
 section.contact_me_desktop form {
@@ -903,44 +942,4 @@ section.contact_me_desktop form textarea {
   width: 447px;
   height: 170px;
   margin-bottom: 20px;
-}
-
-section.contact_me_desktop form button {
-  display: flex;
-  background-color: #fff;
-  color: #396df2;
-  font-size: 17px;
-  font-family: 'Poppins', sans-serif, Courier, monospace;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  width: fit-content;
-  height: 48px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 142px;
-  margin-right: 142px;
-  align-items: center;
-  justify-content: center;
-}
-
-section.contact_me_desktop form button:hover {
-  background-color: #6070ff;
-  color: #fff;
-}
-
-section.contact_me_desktop form button:active {
-  background-color: blue;
-  color: #fff;
-}
-
-section.contact_me_desktop form button:disabled {
-  color: #aaa;
-  background-color: #fff;
-  border: 1px solid #aaa;
-  border-radius: 8px;
 }
