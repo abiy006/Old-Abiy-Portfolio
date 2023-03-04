@@ -102,7 +102,7 @@ section.contact_me_desktop h1 {
   width: 801px;
   height: 56px;
   margin-top: 120px;
-  margin-left: 50px;
+  margin-left: 200px;
   font-family: 'Poppins', sans-serif, Courier, monospace;
   font-style: normal;
   font-weight: 700;
@@ -257,7 +257,7 @@ section.contact_me_desktop p {
   width: 569px;
   height: 102px;
   margin-top: 200px;
-  margin-left: 250px;
+  margin-left: 400px;
   font-family: 'Poppins', sans-serif, Courier, monospace;
   font-style: normal;
   font-weight: 400;
@@ -914,7 +914,7 @@ section.contact_me_desktop form {
   width: 447px;
   height: 500px;
   margin-top: 310px;
-  margin-left: 250px;
+  margin-left: 400px;
 }
 
 section.contact_me_desktop form input {
