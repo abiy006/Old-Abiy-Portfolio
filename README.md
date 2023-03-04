@@ -37,7 +37,8 @@
 
 # 📖 [ABIY-PORTFOLIO] <a name="about-project"></a>
 
-**[Abiy-Portfolio]** is a...
+**[Abiy-Portfolio]** This is a portofolio created during my Microverse course. 
+The protofolio is able to function (responsive to) both on the mobile and desktop version.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -64,6 +65,20 @@
   </ul>
 </details>
 
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Abiy Hussen**
+
+- GitHub: [@githubhandle](https://github.com/abiy006)
+- Twitter: [@twitterhandle](https://twitter.com/Abiy62463489)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abiy-hussen-aman-194587183/)
+
+👤 **Mark Yegon**
+
+- GitHub: [@githubhandle](https://github.com/MarkYegon7)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Features -->
@@ -81,7 +96,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://abiy006.github.io./)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
