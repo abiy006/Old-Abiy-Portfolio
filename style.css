@@ -281,6 +281,80 @@ main.mobile_main section.work-container {
   margin-bottom: 10px;
 }
 
+main.mobile_main section.work-container div:nth-child(5) {
+  display: flex;
+  align-items: center;
+}
+
+main.mobile_main section.work-container2 div:nth-child(1) {
+  display: flex;
+  background-image: url('./Images/Multi-PostStory1.svg');
+  background-repeat: no-repeat;
+  width: 295px;
+  height: 220px;
+  margin-top: 10px;
+}
+
+main.mobile_main section.work-container2 div:nth-child(3) {
+  display: flex;
+  background-image: url('./Images/CANOPY.svg');
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 32px;
+  margin-top: 40px;
+}
+
+main.mobile_main section.work-container2 div:nth-child(5) {
+  display: flex;
+  align-items: center;
+}
+
+main.mobile_main section.work-container3 div:nth-child(1) {
+  display: flex;
+  background-image: url('./Images/Tonic2-pic.svg');
+  background-repeat: no-repeat;
+  width: 295px;
+  height: 220px;
+  margin-top: 10px;
+}
+
+main.mobile_main section.work-container3 div:nth-child(3) {
+  display: flex;
+  background-image: url('./Images/CANOPY.svg');
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 32px;
+  margin-top: 20px;
+}
+
+main.mobile_main section.work-container3 div:nth-child(5) {
+  display: flex;
+  align-items: center;
+}
+
+main.mobile_main section.work-container4 div:nth-child(1) {
+  display: flex;
+  background-image: url('./Images/Multi-PostStory2.svg');
+  background-repeat: no-repeat;
+  width: 295px;
+  height: 220px;
+  margin-top: 10px;
+}
+
+main.mobile_main section.work-container4 div:nth-child(3) {
+  display: flex;
+  background-image: url('./Images/CANOPY.svg');
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 32px;
+  margin-top: 40px;
+}
+
+main.mobile_main section.work-container4 div:nth-child(5) {
+  display: flex;
+  align-items: center;
+}
+
 main.mobile_main section.work-container div:nth-child(1) {
   display: flex;
   background-image: url('./Images/Tonic1-pic.svg');
@@ -288,6 +362,20 @@ main.mobile_main section.work-container div:nth-child(1) {
   width: 295px;
   height: 220px;
   margin-top: 10px;
+}
+
+main.mobile_main section.work-container div:nth-child(3) {
+  display: flex;
+  background-image: url('./Images/CANOPY.svg');
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 32px;
+  margin-top: 20px;
+}
+
+main.mobile_main section.work-container div:nth-child(1):hover {
+  transition: all 1s;
+  transform: scale(1.2) rotate(720deg);
 }
 
 main.mobile_main section.work-container h1 {
@@ -301,15 +389,6 @@ main.mobile_main section.work-container h1 {
   margin-top: 15px;
 }
 
-main.mobile_main section.work-container div:nth-child(3) {
-  display: flex;
-  background-image: url('./Images/CANOPY.svg');
-  background-repeat: no-repeat;
-  width: 250px;
-  height: 32px;
-  margin-top: 20px;
-}
-
 main.mobile_main section.work-container p {
   display: flex;
   align-items: center;
@@ -321,11 +400,6 @@ main.mobile_main section.work-container p {
   color: #344563;
   text-align: left;
   margin-top: 20px;
-}
-
-main.mobile_main section.work-container div:nth-child(5) {
-  display: flex;
-  align-items: center;
 }
 
 main.mobile_main section.work-container div:nth-child(5) ul {
@@ -518,13 +592,9 @@ main.mobile_main section.work-container2 {
   margin-top: 100px;
 }
 
-main.mobile_main section.work-container2 div:nth-child(1) {
-  display: flex;
-  background-image: url('./Images/Multi-PostStory1.svg');
-  background-repeat: no-repeat;
-  width: 295px;
-  height: 220px;
-  margin-top: 10px;
+main.mobile_main section.work-container2 div:nth-child(1):hover {
+  transition: all 1s;
+  transform: scale(1.2) rotate(720deg);
 }
 
 main.mobile_main section.work-container2 h1 {
@@ -538,15 +608,6 @@ main.mobile_main section.work-container2 h1 {
   margin-top: 15px;
 }
 
-main.mobile_main section.work-container2 div:nth-child(3) {
-  display: flex;
-  background-image: url('./Images/CANOPY.svg');
-  background-repeat: no-repeat;
-  width: 250px;
-  height: 32px;
-  margin-top: 40px;
-}
-
 main.mobile_main section.work-container2 p {
   display: flex;
   align-items: center;
@@ -558,11 +619,6 @@ main.mobile_main section.work-container2 p {
   color: #344563;
   text-align: left;
   margin-top: 20px;
-}
-
-main.mobile_main section.work-container2 div:nth-child(5) {
-  display: flex;
-  align-items: center;
 }
 
 main.mobile_main section.work-container2 div:nth-child(5) ul {
@@ -613,15 +669,6 @@ main.mobile_main section.work-container3 {
   background-color: #fff;
 }
 
-main.mobile_main section.work-container3 div:nth-child(1) {
-  display: flex;
-  background-image: url('./Images/Tonic2-pic.svg');
-  background-repeat: no-repeat;
-  width: 295px;
-  height: 220px;
-  margin-top: 10px;
-}
-
 main.mobile_main section.work-container3 h1 {
   font-size: 40px;
   font-weight: bold;
@@ -631,15 +678,6 @@ main.mobile_main section.work-container3 h1 {
   color: #172b4d;
   text-align: left;
   margin-top: 15px;
-}
-
-main.mobile_main section.work-container3 div:nth-child(3) {
-  display: flex;
-  background-image: url('./Images/CANOPY.svg');
-  background-repeat: no-repeat;
-  width: 250px;
-  height: 32px;
-  margin-top: 20px;
 }
 
 main.mobile_main section.work-container3 p {
@@ -653,11 +691,6 @@ main.mobile_main section.work-container3 p {
   color: #344563;
   text-align: left;
   margin-top: 20px;
-}
-
-main.mobile_main section.work-container3 div:nth-child(5) {
-  display: flex;
-  align-items: center;
 }
 
 main.mobile_main section.work-container3 div:nth-child(5) ul {
@@ -709,15 +742,6 @@ main.mobile_main section.work-container4 {
   margin-bottom: 100px;
 }
 
-main.mobile_main section.work-container4 div:nth-child(1) {
-  display: flex;
-  background-image: url('./Images/Multi-PostStory2.svg');
-  background-repeat: no-repeat;
-  width: 295px;
-  height: 220px;
-  margin-top: 10px;
-}
-
 main.mobile_main section.work-container4 h1 {
   font-size: 40px;
   font-weight: bold;
@@ -727,15 +751,6 @@ main.mobile_main section.work-container4 h1 {
   color: #172b4d;
   text-align: left;
   margin-top: 15px;
-}
-
-main.mobile_main section.work-container4 div:nth-child(3) {
-  display: flex;
-  background-image: url('./Images/CANOPY.svg');
-  background-repeat: no-repeat;
-  width: 250px;
-  height: 32px;
-  margin-top: 40px;
 }
 
 main.mobile_main section.work-container4 p {
@@ -749,11 +764,6 @@ main.mobile_main section.work-container4 p {
   color: #344563;
   text-align: left;
   margin-top: 20px;
-}
-
-main.mobile_main section.work-container4 div:nth-child(5) {
-  display: flex;
-  align-items: center;
 }
 
 main.mobile_main section.work-container4 div:nth-child(5) ul {
