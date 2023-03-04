@@ -266,6 +266,11 @@ main.mobile_main section.work-container div:nth-child(1) {
   margin-top: 10px;
 }
 
+main.mobile_main section.work-container div:nth-child(1):hover {
+  transition: all 0.5s;
+  transform: scale(1.1) rotate(360deg);
+}
+
 main.mobile_main section.work-container h1 {
   font-size: 40px;
   font-weight: bold;
